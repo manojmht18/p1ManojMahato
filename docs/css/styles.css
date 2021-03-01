@@ -1,0 +1,34 @@
+body {
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #333;
+    background-color: #eeeeee;
+    padding: 25px;
+}
+
+h3 {
+    border-bottom: 1px solid #ededed;
+    padding-bottom: 15px;
+}
+
+.container {
+    background: #ffffff;
+    border-radius: 5px;
+    padding: 10px 10px 30px 10px;
+}
+
+@media (min-width: 1200px) {
+    .container {
+        width: 1000px;
+    }
+}
+
+
+.row {
+    padding: 0 25px;
+}
+
+.content {
+    padding: 0 40px;
+}
